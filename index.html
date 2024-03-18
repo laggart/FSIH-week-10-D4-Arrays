@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Fiesta en casa</title>
+  </head>
+  <body>
+    <section class="Fiesta text-light">
+      <div class="FiestaCasa d-flex flex-column">
+        <h1 class="text-center">invitados a mi fiesta</h1>
+        <ul id="invitedList" class="mx-auto Fiesta2" style="width: 18rem;">
+
+        </ul>
+      </div>
+      <div class="botones d-flex justify-content-center">
+        <button type="button" class="btn btn-primary mx-2" onclick="mostrarInvitados()">inicio</button>
+        <button type="button" class="btn btn-primary mx-2" onclick="juani()">Juani</button>
+        <button type="button" class="btn btn-primary mx-2" onclick="Marta()">Marta</button>
+        <button type="button" class="btn btn-primary mx-2" onclick="Roberto()">Roberto</button>
+        <button type="button" class="btn btn-primary mx-2" onclick="vecinos()">Vecinos</button>
+        <button type="button" class="btn btn-primary mx-2" onclick="buscarEnLista()">Buscar Invitados</button>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
